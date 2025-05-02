@@ -1,9 +1,8 @@
 class Event:
-    def __init__(self, name, venue, performer, start_time, duration_hours, event_type, mood, tags):
+    def __init__(self, name, venue, performer, duration_hours, event_type, mood, tags):
         self.name = name
         self.venue = venue
         self.performer = performer
-        self.start_time = start_time
         self.duration_hours = duration_hours
         self.event_type = event_type
         self.mood = mood
